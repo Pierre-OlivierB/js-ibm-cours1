@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+/* body {
+   background: red; 
+} */
+
+/*1fst move*/
+/* li:nth-child(4) {
+  font-weight: bold;
+} */
+
+/*2sd move*/
+/* ul > li + li + li + li {
+  font-weight: bold;
+}
+ul > li + li + li + li + li {
+  font-weight: 100;
+} */
+
+/* 3thrd move */
+/* li:nth-last-child(2) {
+  font-weight: bold;
+} */
+
+/* 4th move */
+/* li:nth-last-of-type(2) {
+  font-weight: bold;
+} */
+
+/* 5th move */
+/* li:nth-of-type(4) {
+  font-weight: bold;
+} */
+
+/*-------------------------------------*/
+/*Pseudo class attr*/
+div[title="deux"] {
+  background: blue;
+}
+div[title^="d"][title$="eux"] {
+  color: red;
+}
