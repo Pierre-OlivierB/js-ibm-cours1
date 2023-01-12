@@ -67,7 +67,19 @@ modPair[0]= turtle[0]%2;
 modPair[1]= turtle[1]%2;
 modPair[2]= turtle[2]%2;
 modPair[3]= turtle[3]%2;
-console.log(modPair);
+// console.log(modPair);
+// if (Object.is(modPair[0], 0)){
+//     console.log("Pair");
+// }
+// else{
+//     console.log("Impair");
+// }
+// if (modPair[0]==0) {
+//     console.log("Per-rier");
+// }
+// else{
+//     console.log("Imper-méable");
+// }
 
 
 //Fibonacci suit
@@ -85,4 +97,48 @@ fibo[7]=13;
 
 let index = 0;
 let value = 0;
-console.log("rang : "+fibo.indexOf(value),"value : "+fibo[index]);
+// console.log("rang : "+fibo.indexOf(value),"value : "+fibo[index]);
+let fiboFor = new Array();
+let at = 0;
+let bt = 1;
+for(i=0;i<10;i++){
+    fiboFor[i]= at;
+    let c = at + bt ;
+    at=bt;
+    bt=c;
+    // console.log(c);
+}
+console.log(fiboFor);
+
+for(i=0;i<fiboFor.length;i++){
+   console.log("rang : "+ i +" value : "+fiboFor[i]);  
+}
+
+//------------------------
+//operator mini
+let calc = 3;
+calc++;
+calc*=42;
+// console.log(calc);
+calc--;
+// console.log(calc);
+
+let position = 5;
+let taille = 12;
+let calcul;
+
+calcul=(position++)*taille;
+// console.log(position);
+// console.log(calcul);
+calcul=(++position)*taille;
+// console.log(calcul);
+
+//------------------------------
+//condition
+let a=5, b=7;
+// if (a > b) {
+//     console.log("a > b");
+// }
+// else{
+//     console.log("a < b");
+// }
